@@ -1,0 +1,1 @@
+actionlib control_msgs cr10_moveit diagnostic_msgs dobot_description dobot_gazebo dobot_moveit geometry_msgs message_generation moveit_msgs moveit_ros_perception moveit_ros_planning_interface roscpp rosdemo_v4 rospy rviz_dobot_control sensor_msgs shape_msgs std_msgs std_srvs tf trajectory_msgs

@@ -1,0 +1,8 @@
+prefix=/home/smart-robotarm/arm_ws/install
+
+Name: cr10_moveit_config_myself
+Description: Description of cr10_moveit_config_myself
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

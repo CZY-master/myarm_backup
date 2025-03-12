@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/smart-robotarm/arm_ws/devel/setup.sh

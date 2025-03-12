@@ -1,0 +1,11 @@
+<launch>
+   
+    <!-- 启动一个节点 -->
+    <node name="main_tcp" pkg="arm_control_tcp" type="main_tcp" output="screen">
+        <!-- 添加节点的参数，如果需要的话 -->
+        <!-- <param name="pointA" type="double" value="10"/>
+        <param name="pointB" type="double" value="10" /> -->
+       <rosparam param="pointA">[10, 9, 108, -19, -97, 4]</rosparam>
+       <rosparam param="pointB">[0, 9, 108, -19, -97, 180]</rosparam>
+    </node>
+</launch>

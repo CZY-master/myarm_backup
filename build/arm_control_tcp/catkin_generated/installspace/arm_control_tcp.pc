@@ -1,0 +1,8 @@
+prefix=/home/smart-robotarm/arm_ws/install
+
+Name: arm_control_tcp
+Description: Description of arm_control_tcp
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

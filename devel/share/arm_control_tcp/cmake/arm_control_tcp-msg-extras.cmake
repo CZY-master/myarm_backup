@@ -1,0 +1,2 @@
+set(arm_control_tcp_MESSAGE_FILES "")
+set(arm_control_tcp_SERVICE_FILES "/home/smart-robotarm/arm_ws/src/arm_control_tcp/srv/EnableRobot.srv;/home/smart-robotarm/arm_ws/src/arm_control_tcp/srv/DisableRobot.srv;/home/smart-robotarm/arm_ws/src/arm_control_tcp/srv/ClearError.srv;/home/smart-robotarm/arm_ws/src/arm_control_tcp/srv/GetErrorID.srv;/home/smart-robotarm/arm_ws/src/arm_control_tcp/srv/MovJ.srv;/home/smart-robotarm/arm_ws/src/arm_control_tcp/srv/ServoJ.srv")

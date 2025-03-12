@@ -1,0 +1,2 @@
+set(rosdemo_v4_MESSAGE_FILES "")
+set(rosdemo_v4_SERVICE_FILES "/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/srv/EnableRobot.srv;/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/srv/DisableRobot.srv;/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/srv/ClearError.srv;/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/srv/GetErrorID.srv;/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/srv/MovJ.srv")
