@@ -1008,6 +1008,10 @@ rosdemo_v4/GetErrorID.h
 rosdemo_v4/MovJ.h
 /home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/include/rosdemo_v4/MovJ.h
 
+/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/src/main.cpp
+rosDemoCRV4.h
+/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/src/rosDemoCRV4.h
+
 /home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/src/rosDemoCRV4.cpp
 rosDemoCRV4.h
 /home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/rosdemo_v4/src/rosDemoCRV4.h

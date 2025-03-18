@@ -4878,28 +4878,6 @@ stdio.h
 stdlib.h
 -
 
-/home/smart-robotarm/arm_ws/src/TCP-IP-ROS-6AXis/dobot_bringup/src/tcp_socket.cpp
-ros/ros.h
--
-cerrno
--
-cstring
--
-utility
--
-unistd.h
--
-arpa/inet.h
--
-sys/socket.h
--
-netinet/in.h
--
-sys/select.h
--
-dobot_bringup/tcp_socket.h
--
-
 /opt/ros/noetic/include/actionlib/action_definition.h
 
 /opt/ros/noetic/include/actionlib/decl.h
