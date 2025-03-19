@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="sim" default="false" />
+  <arg name="debug" default="false" />
+    
+  <!--The planning and execution components of MoveIt! configured to 
+      publish the current configuration of the robot (simulated or real) 
+      and the current state of the world as seen by the planner
+      MoveIt!的计划和执行组件配置为发布机器人的当前配置（模拟的或真实的）以及规划者眼中的世界现状-->
+  <include file="$(find cr10_moveit)/launch/move_group.launch">
+    <arg name="publish_monitored_planning_scene" value="true" />
+    <arg name="debug" default="$(arg debug)" />
+  </include>
+
+  <!-- Remap follow_joint_trajectory 
+  这里是一个判断语句，判断sim是否为true，如果为true 那么将会重命名/follow_joint_trajectory，并将其改为/cr10_robot/joint_controller/follow_joint_trajectory-->
+  <remap if="$(arg sim)" from="/follow_joint_trajectory" to="/cr10_robot/joint_controller/follow_joint_trajectory"/>
+
+
+
+</launch>
